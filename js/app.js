@@ -1,7 +1,6 @@
-$(".grid-photo, .bg-img").imagesLoaded({ background: true }, function() {
+$(".grid-photo").imagesLoaded(function() {
   $(".grid-photo").masonry({
     itemSelector: ".grid-item"
   });
-  alert('test');
-  
+  $(document).load();
 });
